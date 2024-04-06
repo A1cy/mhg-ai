@@ -8,23 +8,23 @@
  */
 export const Brand = {
   Title: {
-    Base: 'big-AGI',
-    Common: (process.env.NODE_ENV === 'development' ? '[MHG] ' : '') + 'big-AGI',
+    Base: 'MHG-ai',
+    Common: (process.env.NODE_ENV === 'development' ? '[MHG] ' : '') + 'ai',
   },
   Meta: {
-    Description: 'Launch big-AGI to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX.',
-    SiteName: 'big-AGI | Precision AI for You',
+    Description: 'Launch mhg-ai to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX.',
+    SiteName: 'mhg-ai | Precision AI for You',
     ThemeColor: '#32383E',
     TwitterSite: '@enricoros',
   },
   URIs: {
-    Home: 'https://big-agi.com',
+    Home: 'https://int-mhg.com',
     // App: 'https://get.big-agi.com',
-    CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
-    OpenRepo: 'https://github.com/enricoros/big-agi',
-    OpenProject: 'https://github.com/users/enricoros/projects/4',
-    SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
+    CardImage: '',
+    OpenRepo: '',
+    OpenProject: '',
+    SupportInvite: '',
     // Twitter: 'https://www.twitter.com/enricoros',
-    PrivacyPolicy: 'https://big-agi.com/privacy',
+    PrivacyPolicy: '',
   },
 } as const;
