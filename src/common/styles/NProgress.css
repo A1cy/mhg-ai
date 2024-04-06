@@ -5,7 +5,7 @@
 
 /* Make clicks pass-through */
 #nprogress {
-    --barColor: #32383E;
+    --barColor: #006eb6;
     --barHeight: 4px;
     pointer-events: none;
 }
